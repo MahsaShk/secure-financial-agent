@@ -1,6 +1,6 @@
-# secure-financial-agent-platform
+# secure-financial-agent
 
-A secure financial local agent that answers questions from financial report text, runs
+A secure financial agent platform that answers questions from financial report text, runs
 arithmetic through a fixed set of calculator operations, and refuses common
 prompt-injection attempts. It is an MVP for testing this approach, not
 financial advice.
@@ -90,7 +90,7 @@ accuracy, refusal accuracy, and p50/p95 latency.
 `data/security_cases.json` has 20 attack and benign-utility cases. They show
 that the pipeline runs. They are not a security benchmark.
 
-These are smoke-test results on synthetic data. They are not FinQA results.
+These are smoke-test results on synthetic data.
 
 ## Limitations
 
